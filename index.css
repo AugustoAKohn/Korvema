@@ -26,6 +26,10 @@ li {
     color: rgb(15, 32, 46);
     font-weight: 700;
 }
+.make-blue {
+    color: rgb(35, 101, 151);
+    font-weight: 700;
+}
 
 /*NAVIGATION*/
 
@@ -123,14 +127,16 @@ nav {
     max-width: 100%;
     overflow: hidden;
     display: flex;
-    justify-content: center;    
-    border: 2px solid black;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(84, 84, 84, 1);
 }
 .project-title {
     font-size: 40px;
-    color: rgb(15, 32, 46);
+    color: rgb(0, 0, 0);
     margin-bottom: 15px;
 }
+
 /*Microfinance*/
 
 .mf-img {
@@ -334,6 +340,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+/*Contact*/
 
 
 
