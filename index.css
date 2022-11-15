@@ -343,5 +343,46 @@ nav {
 
 /*Contact*/
 
+#contact {
+    background-color: rgb(35, 101, 151);
+    height: 60vh;
+    padding: 20px;
+}
+.contact-title {
+    font-size: 40px;
+    margin: 15px, 0, 0, 0;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 300px;
+    width: 30%;
+}
+.contacts {
+    color: rgb(15, 32, 46);
+    display: flex;
+    margin-bottom: 10px;
+}
+i {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+p {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+}
+.contact-link {
+    font-size: 30px;
+    text-decoration: none;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
 
+/*Footer*/
 
