@@ -105,6 +105,14 @@ nav {
 }
 .mission-slide {
     width: 65%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+    height: 60vh;
+}
+.slideshow {
+
 }
 
 /*projects*/
