@@ -84,8 +84,6 @@ nav {
 
 
 
-
-
 /*Contact*/
 
 #contact {
@@ -128,6 +126,22 @@ p {
     display: flex;
     justify-content: space-between;
 }
+.non-contact-title {
+    display: flex;
+    justify-content: space-around;
+}
+.our-shopify {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 300px;
+    width: 30%;
+}
+.shopify-link {
+    font-size: 200px;
+}
 
 /*Footer*/
 
@@ -136,6 +150,7 @@ p {
     background-color: rgb(35, 101, 151);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .copyrights {
     margin-left: 5vw;
