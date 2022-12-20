@@ -145,69 +145,18 @@ nav {
     margin-bottom: 15px;
 }
 
-/*Microfinance*/
-
-.mf-img {
-    max-height: 100%;
-}
-.mf-anchor {
-    max-width: 22%;    
-    transition: all 300ms;
-    transition: ease-in-out 300ms;
-}
-.mf-anchor:hover {
-    max-width: 30%;
-}
-#mf {
-    position: relative;
-    padding: 0;
-    width: 100%;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-  .mf-content {
-    opacity: 0;
-    font-size: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgb(255, 255, 255);
-    background-color: rgba(84, 84, 84, 0.5);
-    width: 100%;
-    height: 100%;
-    transition: all 400ms ease-out;
-    text-align: center;
-}
-#mf .mf-content:hover {
-    opacity: 1;
-}
-#mf .mf-content .mf-text {
-    height: 0;
-    opacity: 1;
-    transition-delay: 0s;
-    transition-duration: 0.4s;
-}
-.mf-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /*Honey*/
 
 .honey-img {
     max-height: 100%;  
 }
 .honey-anchor {
-    max-width: 22%;  
+    max-width: 30%;  
     transition: all 300ms;
     transition: ease-in-out 300ms;
 }
 .honey-anchor:hover {
-    max-width: 30%;
+    max-width: 37%;
 }
 #honey {
     position: relative;
@@ -253,12 +202,12 @@ nav {
     height: 100%;
 }
 .eggs-anchor {
-    max-width: 22%;    
+    max-width: 30%;    
     transition: all 300ms;
     transition: ease-in-out 300ms;
 }
 .eggs-anchor:hover {
-    max-width: 30%;
+    max-width: 37%;
 }
 #eggs {
     position: relative;
@@ -304,12 +253,12 @@ nav {
     height: 100%;
 }
 .agro-anchor {
-    max-width: 22%;    
+    max-width: 30%;    
     transition: all 300ms;
     transition: ease-in-out 300ms;
 }
 .agro-anchor:hover {
-    max-width: 30%;
+    max-width: 37%;
 }
 #agro {
     position: relative;
@@ -349,30 +298,49 @@ nav {
     justify-content: center;
 }
 
-/*Contact*/
+/*extra-info*/
 
-#contact {
+#extra-info {
     background-color: rgb(35, 101, 151);
-    height: 60vh;
+    height: 55vh;
     padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
 }
-.contact-title {
+.contact-section {
+    width: 35%;
+    max-width: 300px;
+}
+.shopify {
+    width: 35%;
+    max-width: 300px;
+}
+.title {
+    max-width: 250px;
     font-size: 40px;
-    margin: 15px, 0, 0, 0;
+    margin-bottom: 25px;
 }
 .contact-us {
     display: flex;
     flex-direction: column;
     margin: 15px;
     justify-content: space-around;
-    padding: 20px;
     max-width: 300px;
-    width: 30%;
 }
 .contacts {
     color: rgb(15, 32, 46);
     display: flex;
+    width: 100%;
+    max-width: 250px;
     margin-bottom: 10px;
+}
+.po-box {
+    max-width: 300px;
+    width: 100%;
+}
+.po-text {
+    max-width: 250px;
+    width: 100%;
 }
 i {
     color: rgb(255, 255, 255);
@@ -391,21 +359,11 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.non-contact-title {
-    display: flex;
-    justify-content: space-around;
-}
-.our-shopify {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    justify-content: space-around;
-    padding: 20px;
-    max-width: 300px;
-    width: 30%;
-}
 .shopify-link {
     font-size: 200px;
+    margin: 15px;
+    max-width: 300px;
+    width: 30%;
 }
 
 /*Footer*/
